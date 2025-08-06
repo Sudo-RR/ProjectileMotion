@@ -6,7 +6,7 @@ and acceleration due to gravity.
 #include <iostream>
 #include <cmath>
 #define PI 3.14159265358979323846
-
+#include "Differentiation.h"
 struct Coords_3D  // Structure to hold 3D Coordinates
 {
 	double x;

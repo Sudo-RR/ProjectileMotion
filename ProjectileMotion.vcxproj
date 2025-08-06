@@ -123,7 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Differentiation.cpp" />
     <ClCompile Include="ProjectileMotion.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Differentiation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
