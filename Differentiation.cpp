@@ -37,7 +37,7 @@ namespace Differentiation
 		f'''(x) = (3f(x-4) - 14f(x-3) + 24f(x-2) - 18f(x-1) + 5f(x)) / 2h^3
 
 	forward_difference_4th_order
-		f'''(x) = -2f(x+5) + 11f(x+4) - 24f(x+3) + 26f(x+2) - 14f(x+1) + 3f(x) / h^4
+		f''''(x) = -2f(x+5) + 11f(x+4) - 24f(x+3) + 26f(x+2) - 14f(x+1) + 3f(x) / h^4
 	centered_difference_4th_order
 		f''''(x) = -(f(x+3) + f(x-3)) + 12(f(x+2) + f(x-2)) - 39(f(x+1) + f(x-1)) + 56f(x) / 6h^4
 	backward_difference_4th_order
